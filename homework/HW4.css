@@ -1,0 +1,72 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #c3ebf8;
+    padding: 20px;
+}
+
+.container {
+    width: 650px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(252, 229, 243);
+    border: 3px solid #eabef2;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #b1eaf7;
+    margin-bottom: 25px;
+}
+
+fieldset {
+    border: 2px solid #ffbddf;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+legend {
+    font-weight: bold;
+    color: hwb(339 62% 15%);
+}
+
+label {
+    color:#f1ae7e;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 11px;
+    border: 2px solid #fdfad2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+ textarea {
+    height: 150px;
+    resize: vertical;
+}
+input[type="file"] {
+    margin-top: 5px;
+}
+
+button {
+            width: 100%;
+            padding: 13px;
+            background-color: #d6fce2;
+            color: rgb(209, 187, 187);
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+}
+button:hover {
+    background-color: #9f9291;
+}

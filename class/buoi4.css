@@ -1,0 +1,36 @@
+.B4{
+    border: 1px solid black;
+    background-color: beige;
+}
+#id{
+    color: rgb(46, 187, 212);
+}
+#id p{
+    color:brown;
+}
+ul > li{
+    color:gainsboro;
+}
+h2+p{
+    color:aquamarine;
+}
+ul li:not(:first-child){
+    color:chocolate;
+    text-align: center;
+}
+#id p:last-child{
+    color:violet;
+}
+#id p:after{
+    content: "Chưa học";
+    font-size: 1cm;
+    color: black;
+}
+[id]{
+    border: 1px solid black;
+    padding: 10px;
+}
+h1[class="B4"]{
+    color: pink;
+    font-size: 30px;
+}
